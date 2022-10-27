@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="257.0" layoutY="172.0" text="Hello World" />
+      <AnchorPane layoutY="-1.0" prefHeight="450.0" prefWidth="300.0" styleClass="painel-login" stylesheets="@../styles/princinpalStyles.css">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/ebook.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="303.0" layoutY="-1.0" prefHeight="450.0" prefWidth="300.0" stylesheets="@../styles/princinpalStyles.css">
+         <children>
+            <Label layoutX="88.0" layoutY="62.0" text="Biblioteca" textFill="#4275cd">
+               <font>
+                  <Font name="Georgia Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField layoutX="59.0" layoutY="172.0" prefHeight="26.0" prefWidth="200.0" promptText="User" styleClass="input-text" stylesheets="@../styles/princinpalStyles.css" />
+            <PasswordField layoutX="59.0" layoutY="253.0" prefWidth="200.0" promptText="Password" styleClass="input-text" stylesheets="@../styles/princinpalStyles.css" />
+            <Button layoutX="109.0" layoutY="329.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" styleClass="btn" stylesheets="@../styles/princinpalStyles.css" text="Login" textFill="#ebebeb" AnchorPane.bottomAnchor="96.0" AnchorPane.topAnchor="329.0" />
+            <Label layoutX="136.0" layoutY="410.0" styleClass="txt-cad" stylesheets="@../styles/princinpalStyles.css" text="Cadastrar" textFill="#111111">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>
