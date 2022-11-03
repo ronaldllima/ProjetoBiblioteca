@@ -8,6 +8,7 @@
      -fx-cursor: hand;
 
 }
+
 .input-text{
     -fx-background-color: transparent;
     -fx-border-color: #3f3951;
@@ -16,6 +17,7 @@
 
 .txt-cad{
     -fx-background-color: linear-gradient(to bottom right, #42dd85, #42ddd5);
+    /* -fx-background-radius: 20px; */
     -fx-border-radius: 20px;
     -fx-fill: #ffffff;
      -fx-cursor: hand;

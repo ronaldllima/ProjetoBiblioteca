@@ -23,7 +23,7 @@ public class App extends Application {
     @Override
     public void start(Stage palco) throws IOException {
         FXMLLoader loader = new FXMLLoader(this.getClass().getResource("view/principal.fxml"));
-        palco.initStyle(StageStyle.TRANSPARENT);
+        // palco.initStyle(StageStyle.TRANSPARENT);
         Parent root = loader.load();
 
 

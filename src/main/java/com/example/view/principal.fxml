@@ -22,15 +22,15 @@
       </AnchorPane>
       <AnchorPane layoutX="303.0" layoutY="-1.0" prefHeight="450.0" prefWidth="300.0" stylesheets="@../styles/princinpalStyles.css">
          <children>
-            <Label layoutX="88.0" layoutY="62.0" text="Biblioteca" textFill="#4275cd">
+            <Label layoutX="88.0" layoutY="107.0" text="Biblioteca" textFill="#4275cd">
                <font>
                   <Font name="Georgia Bold" size="24.0" />
                </font>
             </Label>
-            <TextField layoutX="59.0" layoutY="172.0" prefHeight="26.0" prefWidth="200.0" promptText="User" styleClass="input-text" stylesheets="@../styles/princinpalStyles.css" />
-            <PasswordField layoutX="59.0" layoutY="253.0" prefWidth="200.0" promptText="Password" styleClass="input-text" stylesheets="@../styles/princinpalStyles.css" />
+            <TextField layoutX="59.0" layoutY="172.0" prefHeight="26.0" prefWidth="200.0" promptText="User" style="-fx-background-color: #CCFFFF;" styleClass="input-text" stylesheets="@../styles/princinpalStyles.css" />
+            <PasswordField layoutX="59.0" layoutY="241.0" prefWidth="200.0" promptText="Password" style="-fx-background-color: #CCFFFF;" styleClass="input-text" stylesheets="@../styles/princinpalStyles.css" />
             <Button layoutX="109.0" layoutY="329.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" styleClass="btn" stylesheets="@../styles/princinpalStyles.css" text="Login" textFill="#ebebeb" AnchorPane.bottomAnchor="96.0" AnchorPane.topAnchor="329.0" />
-            <Label layoutX="136.0" layoutY="410.0" styleClass="txt-cad" stylesheets="@../styles/princinpalStyles.css" text="Cadastrar" textFill="#111111">
+            <Label alignment="CENTER" layoutX="109.0" layoutY="398.0" styleClass="txt-cad" stylesheets="@../styles/princinpalStyles.css" text="Cadastrar" textFill="#111111" AnchorPane.bottomAnchor="27.0" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="95.0" AnchorPane.topAnchor="398.0">
                <font>
                   <Font name="Georgia" size="12.0" />
                </font>
